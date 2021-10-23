@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.mymusic.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" />
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.mymusic.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" />
+    <fragment
+        android:id="@+id/localMusicFragment"
+        android:name="com.example.mymusic.LocalMusicFragment"
+        android:label="fragment_local_music"
+        tools:layout="@layout/fragment_local_music" />
+    <fragment
+        android:id="@+id/favoriteMusicFragment"
+        android:name="com.example.mymusic.FavoriteMusicFragment"
+        android:label="fragment_favorite_music"
+        tools:layout="@layout/fragment_favorite_music" />
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.example.mymusic.PlaylistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" />
+    <fragment
+        android:id="@+id/streamMusicFragment"
+        android:name="com.example.mymusic.StreamMusicFragment"
+        android:label="fragment_stream_music"
+        tools:layout="@layout/fragment_stream_music" />
+</navigation>
